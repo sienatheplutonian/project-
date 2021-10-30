@@ -48,7 +48,6 @@ bg.scale = 1.1
 player = createSprite(displayWidth-1150, displayHeight-300, 50, 50);
 player.addImage(shooterImg)
 player.scale = 0.3
-player.debug = true
 player.setCollider("rectangle",0,0,300,300)
 
 //displaying the lives the player has
@@ -249,7 +248,6 @@ function zombieMove(){
     zombie.addImage(zombieImg)
     zombie.scale = 0.17
     zombie.velocityX = -2
-    zombie.debug = true
     zombie.setCollider("rectangle",0,0,400,800)
     zombie.lifetime = 600
 
@@ -263,7 +261,6 @@ function powerupDisplay(){
     powerup.addImage(powerupImg)
     powerup.scale = 0.1
     powerup.velocityX = -2
-    powerup.debug = true
     // zombie.setCollider("rectangle",0,0,400,800)
     powerup.lifetime = 600
   
